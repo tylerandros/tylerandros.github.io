@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+}
+
+#wrap {
+    width: 1000%;
+    background-color: white;
+    margin:  0 auto;
+}
+
