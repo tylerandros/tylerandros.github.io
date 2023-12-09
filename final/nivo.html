@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Slideshow</title>
+        <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+        <link href="nivo.css" rel="stylesheet" type="text/css">
+    </head>
+
+
+<body>
+    
+    <div id="wrap">
+    <header>Header</header>
+
+    <nav>Navigation</nav>
+    
+    <section>        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/palisades_tram.jpg" data-thumb="images/palisades_tram.jpg" alt="" />
+                
+                
+                
+                
+                
+                
+                
+                <a href="http://dev7studios.com"><img src="images/palisades_funatel.jpg" data-thumb="palisades_funatel.jpg" alt="" title="This is an example of a caption" /></a>
+                <img src="images/palisades_siberia.jpg" data-thumb="images/palisades_siberia.jpg" alt="" data-transition="slideInLeft" />
+                <img src="images/palisades_kt22.jpg" data-thumb="images/palisades_kt22.jpg" alt="" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>
+    </section>
+    
+    <footer>Footer</footer>
+    </div>
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+    
+    
+    
+    
+</body>
+</html>
